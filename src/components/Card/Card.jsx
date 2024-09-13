@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css';
-
+// jsx
 const Card = ({id, title, tag, status}) => {
   return (
     <div className="cardContainer flex-gap-10" style={{gap : '5px'}}>

@@ -1,3 +1,4 @@
+// jsx
 import axios from 'axios';
 
 export const fetchAllData = () => async (dispatch) =>{

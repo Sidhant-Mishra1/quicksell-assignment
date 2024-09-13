@@ -6,7 +6,7 @@ import DashView from './components/DashBoard/DashView';
 import { useDispatch, useSelector} from 'react-redux'
 import { fetchAllData } from './Actions/DataAction';
 import Loading from './components/Loading/Loading';
-
+// start
 const App = () => {
   const dispatch = useDispatch();
   const {allTickets} = useSelector(state => state.DataReducer);
